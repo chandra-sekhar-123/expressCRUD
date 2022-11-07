@@ -86,13 +86,15 @@
                         "name": "body",
                         "description": "user object",
                         "required": true,
-                        "schema": {
-                            "type": "object",
-                            "properties": {
-                                "user" : {
-                                    "type": "object",
-                                    "$ref": "#/definitions/users"
-                                } 
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "email":{
+                                "type":"string"
+                            },
+                            "password":{
+                                "type":"string"
                             }
                         }
                     }
@@ -134,13 +136,15 @@
                         "name": "body",
                         "description": "user object",
                         "required": true,
-                        "schema": {
-                            "type": "object",
-                            "properties": {
-                                "user" : {
-                                    "type": "object",
-                                    "$ref": "#/definitions/users"
-                                } 
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "email":{
+                                "type":"string"
+                            },
+                            "password":{
+                                "type":"string"
                             }
                         }
                     }
